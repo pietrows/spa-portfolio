@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px 0px 32px;
+    @media (min-width: 1200px) {
+        padding: 0px 50px 0px 32px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-around;
+        width: 175px;
+        @media (min-width: 1200px) {
+            width: 200px;
+        }
+    }
+}

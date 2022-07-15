@@ -1,0 +1,11 @@
+.projects {
+    background-color: #FFD64A;
+    border: 6px solid #1B1B1B;
+    height: 600px;
+    width: 100%;
+    &__title {
+        color: #1B1B1B;
+        font-weight: 700;
+        font-size: 36px;
+    }
+}

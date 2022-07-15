@@ -1,0 +1,30 @@
+// Para as mudancas acontecerem execute o comando 
+// sass --watch index.scss:index.css 
+//no terminal
+@import './components/header';
+@import './components/hero';
+@import './components/projects';
+
+body {
+    background-color: #1B1B1B !important;
+    color: #FFFFFF !important;
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+}
+a {
+    color: #FFFFFF;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    &:hover{
+        font-weight: 900;
+        font-style: bold;
+        text-decoration-line: underline;
+    }
+}
+
+
+
